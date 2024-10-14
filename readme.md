@@ -26,7 +26,7 @@ DB_DIALECT=mysql
 | -------------------- | -------- | ------------------------------------------- |
 | `/trailerflix`       | `GET`    | Obtiene todos los contenidos.               |
 | `/trailerflix/:id`   | `GET`    | Obtiene un contenido por su ID.             |
-| `/trailerflix/filter | `GET`    | Filtra por titulo, genero y categoria       |
+| `/trailerflix/filter` | `GET`    | Filtra por titulo, genero y categoria       |
 | `/trailerflix`       | `POST`   | Crea un nuevo contenido.                    |
 | `/trailerflix/:id`   | `PUT`    | Actualiza un contenido existente por su ID. |
 | `/trailerflix/:id`   | `DELETE` | Elimina un contenido por su ID.             |
